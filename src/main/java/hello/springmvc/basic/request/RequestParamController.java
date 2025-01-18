@@ -119,7 +119,7 @@ public class RequestParamController {
     }
 
     /**
-     * @ModelAttribute 사용
+     * @ModelAttribute 사용e
      *
      * 참고: model.addAttribute(helloData) 코드도 함께 자동 적용됨, 뒤에 model을 설명할 때 자세히 설명
      * url: http://localhost:8080/model-attribute-v1?username=hello&age=20
@@ -132,7 +132,7 @@ public class RequestParamController {
         return "ok";
     }
 
-    
+
     @ResponseBody
     @RequestMapping("/model-attribute-v2")
     public String modelAttributeV2(HelloData helloData) {
